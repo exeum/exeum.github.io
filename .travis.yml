@@ -8,6 +8,6 @@ addons:
 install:
   - pip install html5validator
 script:
-  - html5validator --root .
+  - html5validator --root ./doc
 notifications:
   slack: exeum-foundation:N5NC7XlSG6BlY85rF3aILVG6

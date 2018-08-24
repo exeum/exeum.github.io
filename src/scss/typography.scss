@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto');
+
+$font-family: 'Roboto', 'Noto Sans', sans-serif;
+
+%h1 {
+  font-family: $font-family;
+  font-size: 6rem;
+  font-weight: lighter;
+  letter-spacing: -0.09375;
+
+  @media (min-width: 768px) and (max-width: 991px) {
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    font-size: 3.75rem;
+    letter-spacing: -0.03125;
+  }
+}
+
+%h2 {
+  font-family: $font-family;
+  font-size: 3.75rem;
+  font-weight: lighter;
+  letter-spacing: -0.03125;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    font-size: 3rem;
+    letter-spacing: 0;
+  }
+}
+
+%h3 {
+  font-family: $font-family;
+  font-size: 3rem;
+  font-weight: normal;
+  letter-spacing: 0;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    font-size: 1.5rem;
+    letter-spacing: 0.015625;
+  }
+}
+
+%h4 {
+  font-family: $font-family;
+  font-size: 2.125rem;
+  font-weight: normal;
+  letter-spacing: 0.015625;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    font-size: 1.25rem;
+    letter-spacing: 0;
+  }
+}
+
+%h5 {
+  font-family: $font-family;
+  font-size: 1.5rem;
+  font-weight: normal;
+  letter-spacing: 0;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    font-size: 1.25rem;
+    letter-spacing: 0.009375;
+  }
+}
+
+%h6 {
+  font-family: $font-family;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  letter-spacing: 0.009375;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    font-size: 1rem;
+    letter-spacing: 0.009375;
+  }
+}
+
+%subtitle1 {
+  font-family: $font-family;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 0.009375;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+  }
+}
+
+%subtitle2 {
+  font-family: $font-family;
+  font-size: 0.875rem;
+  font-weight: bolder;
+  letter-spacing: 0.00625;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+  }
+}
+
+%body1 {
+  font-family: $font-family;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 0.03125;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+  }
+}
+
+%body2 {
+  font-family: $font-family;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0.015625;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+  }
+}
+
+%button {
+  font-family: $font-family;
+  font-size: 0.875rem;
+  font-weight: bolder;
+  letter-spacing: 0.046875;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+  }
+}
+
+%caption {
+  font-family: $font-family;
+  font-size: 0.75rem;
+  font-weight: normal;
+  letter-spacing: 0.025;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+  }
+}
+
+%overline {
+  font-family: $font-family;
+  font-size: 0.625rem;
+  font-weight: normal;
+  letter-spacing: 0.09375;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+  }
+
+  @media (max-width: 767px) { // sm, xs
+  }
+}

@@ -1,0 +1,105 @@
+@import "typography.scss";
+@import "color.scss";
+@import "dimen.scss";
+
+section {
+}
+
+section > div.header {
+  // min-height: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: $section-header-pt;
+  padding-bottom: $section-header-pb;
+  text-align: center;
+}
+
+section > div.header > * {
+  max-width: $max-contents-width;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+    max-width: $max-contents-width-md;
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    max-width: $max-contents-width-sm;
+  }
+}
+
+section > div.header > div.title1 {
+  @extend %h2;
+}
+
+section > div.header > div.title2 {
+  @extend %h4;
+}
+
+section > div.header > div.title3 {
+  @extend %h5;
+}
+
+section > div.body {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: $section-body-pt;
+  padding-bottom: $section-body-pb;
+  text-align: center;
+}
+
+section > div.body > * {
+  max-width: $max-contents-width;
+  margin: auto;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+    max-width: $max-contents-width-md;
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    max-width: $max-contents-width-sm;
+  }
+}
+
+/**
+ * typography
+ */
+section > div.header > div.title {
+  @extend %h3;
+  padding-left: 0rem;
+  padding-right: 0rem;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+section > div.header > div.briefing {
+  @extend %body2;
+
+  padding-left: 0rem;
+  padding-right: 0rem;
+  margin-top: 1.5rem;
+
+  @media (min-width: 768px) and (max-width: 991px) { // md
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (max-width: 767px) { // sm, xs
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
