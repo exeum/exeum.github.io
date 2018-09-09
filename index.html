@@ -37,15 +37,6 @@
       font-style: italic;
     }
 
-    .fill {
-      height: 100vh;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      background-color: #03dac5;
-    }
-
     .fab {
       color: #000;
     }
@@ -53,6 +44,9 @@
     .btn {
       color: #000;
       padding: 1.3rem 2.4rem;
+      font-size: 1rem;
+      font-family: 'IBM Plex Mono', monospace;
+      text-transform: uppercase;
     }
 
     .btn-outline-dark {
@@ -86,8 +80,8 @@
 </head>
 
 <body>
-  <div class="fill">
-    <div class="navbar navbar-expand navbar-light bg-faded pt-4">
+  <div class="bg-light pt-4 pb-5">
+    <div class="navbar navbar-expand navbar-light bg-faded pt-0 pb-0">
       <div class="container">
         <img class="navbar-brand" src="img/logo-dark.svg" height="54" alt="Exeum" />
         <ul class="navbar-nav justify-content-end">
@@ -100,43 +94,44 @@
         </ul>
       </div>
     </div>
-
-    <div class="container text-center h-100 d-flex align-items-center mb-0">
+    <div class="container text-center">
       <div class="container">
-        <h1>Decentralized financial platform for price-stable cryptocurrencies</h1>
-        <a href="https://exeum.us19.list-manage.com/subscribe?u=a412c99ae6213101c313c875c&id=c8204190ae" target="_blank" class="btn btn-lg btn-outline-dark my-5">Subscribe for Updates</a>
+        <h2 class="py-5">Decentralized financial platform for price-stable cryptocurrencies</h2>
+        <a href="https://exeum.us19.list-manage.com/subscribe?u=a412c99ae6213101c313c875c&id=c8204190ae" target="_blank" class="btn btn-lg btn-outline-dark">Subscribe for Updates</a>
       </div>
     </div>
   </div>
 
-  <div class="container text-center my-5">
-    <h1>What is Exeum?</h1>
-    <p class="lead py-5">Exeum is a stablecoin platform based on financial derivatives.</p>
-    <a href="https://arxiv.org/abs/1808.03482" target="_blank" class="btn btn-lg btn-primary shadow-sm">Read Whitepaper</a>
+  <div class="container text-center py-5">
+    <h2 class="pb-4">What is Exeum?</h2>
+    <p class="lead pb-4">Exeum is a stablecoin platform based on financial derivatives.</p>
+    <a href="https://arxiv.org/abs/1808.03482" target="_blank" class="btn btn-lg btn-outline-dark">Read Whitepaper</a>
   </div>
 
-  <div class="container mb-5">
-    <div class="row">
-      <div class="col-md-4 p-4">
-        <img src="img/feature4.svg" class="w-25 mb-4" alt="Guaranteed Stability">
-        <h5 class="mb-3">Guaranteed Stability</h5>
-        <p>Fully backed by virtual assets. No need for overcollaterization. Free from black swan events and automatic liquidation.</p>
-      </div>
-      <div class="col-md-4 p-4">
-        <img src="img/feature1.svg" class="w-25 mb-4" alt="Immediate Issuance">
-        <h5 class="mb-3">Immediate Issuance</h5>
-        <p>Pay in Exeum tokens and immediately receive stablecoins. No market fluctuations due to limited supply.</p>
-      </div>
-      <div class="col-md-4 p-4">
-        <img src="img/feature2.svg" class="w-25 mb-4" alt="Low Fees">
-        <h5 class="mb-3">Low Fees</h5>
-        <p>Zero hidden costs. No stability fees or dynamic transaction fees.</p>
+  <div class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-4">
+          <img src="img/feature4.svg" class="w-25 mb-4" alt="Guaranteed Stability">
+          <h5 class="mb-3">Guaranteed Stability</h5>
+          <p>Fully backed by virtual assets. No need for overcollaterization. Free from black swan events and automatic liquidation.</p>
+        </div>
+        <div class="col-md-4 p-4">
+          <img src="img/feature1.svg" class="w-25 mb-4" alt="Immediate Issuance">
+          <h5 class="mb-3">Immediate Issuance</h5>
+          <p>Pay in Exeum tokens and immediately receive stablecoins. No market fluctuations due to limited supply.</p>
+        </div>
+        <div class="col-md-4 p-4">
+          <img src="img/feature2.svg" class="w-25 mb-4" alt="Low Fees">
+          <h5 class="mb-3">Low Fees</h5>
+          <p>Zero hidden costs. No stability fees or dynamic transaction fees.</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container mb-5">
-    <h1 class="text-center pb-4">Team</h1>
+  <div class="container py-5">
+    <h2 class="text-center pb-4">Team</h2>
     <div class="row">
       <div class="col-md-4 p-4">
         <img src="img/jaehyung.jpg" class="rounded-circle w-50 mb-4" alt="Jaehyung Lee">
